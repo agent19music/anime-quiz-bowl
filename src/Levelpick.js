@@ -7,7 +7,7 @@ export default function Levelpick() {
       <div className="card text-center p-3 m-3">
         <h3 className="card-title">Easy</h3>
         <p className="card-text">Start with some basic knowledge questions.</p>
-        <Link to="/easy-quiz" className="btn btn-success">Take Easy Quiz</Link>
+        <Link to="/questionholder" className="btn btn-success">Take Easy Quiz</Link>
       </div>
 
       <div className="card text-center p-3 m-3">

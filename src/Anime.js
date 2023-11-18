@@ -1,12 +1,18 @@
 import React,{useState} from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 export default function Anime({animes, toggle}) {
     const [imageLoading, setImageLoading] = useState(true);
+    const navigate = useNavigate();
 
     const handleImageLoad = () => {
       setImageLoading(false);
     };
+const picklevel = (anime)=>{
+  if(animes.length > 1){
+    navigate(`/home/${anime.title}`)
+  }
+}    
   return (
     <div className='mt-5'>
       <div className='row'>
@@ -24,7 +30,7 @@ export default function Anime({animes, toggle}) {
                 <p className="card-text">Rating : {anime.rating}</p>
                 <p className="card-text">Episodes : {anime.episodes}</p>
                 <div className='buttons'>
-                <Link to={`/levelpick`} className="btn btn-success" >Play</Link>
+                <Link  className="btn btn-success" onClick={(anime)=>(picklevel)} >Play</Link>
                 </div>
 
               </div>
