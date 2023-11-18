@@ -1,0 +1,24 @@
+{"leadeboard":[
+
+],
+"animes":[
+{
+    "id": "1",
+      "title": "Attack on Titan",
+      "release_date": "2013",
+      "episodes": "89",
+      "mc": "Eren Yeager",
+      "rating": "10",
+      "description": "In a world where humanity is on the brink of extinction due to giant humanoid creatures known as Titans, a young man named Eren Yeager joins the fight to reclaim their walled city and uncover the truth behind these mysterious beings.",
+      "poster": "https://m.media-amazon.com/images/I/81dH7-pkjiL.jpg",
+      "questions": [
+        {
+          "id": 1,
+          "Question": "Who is the mc of the anime",
+          "Answer": "eren yaeger",
+          "points": 19.99
+        }]
+}
+]
+
+}
