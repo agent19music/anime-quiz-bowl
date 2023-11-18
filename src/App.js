@@ -8,6 +8,7 @@ import Layout from './layout/Layout';
 import Homepage from './Homepage';
 import Navbar from './layout/Navbar';
 import Landingpage from './Landingpage';
+import Levelpick from './Levelpick';
 
 function App() {
 const [animes, setAnimes] = useState([]) 
@@ -36,6 +37,7 @@ const [isDarkmode, setIsDarkmode] = useState(true)
       <Route path="/leaderboard" element={<Leaderboard />} />
       <Route path="/" element={<Layout />} />
       <Route path="/home" element={<Homepage animes={animes}  />} />
+      <Route path='/levelpick' element={<Levelpick/>}/>
       </Routes>
       </BrowserRouter>
     </div>
