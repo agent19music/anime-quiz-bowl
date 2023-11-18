@@ -8,11 +8,7 @@ export default function Anime({animes, toggle}) {
     const handleImageLoad = () => {
       setImageLoading(false);
     };
-const picklevel = (anime)=>{
-  if(animes.length > 1){
-    navigate(`/home/${anime.title}`)
-  }
-}    
+
   return (
     <div className='mt-5'>
       <div className='row'>
@@ -30,7 +26,7 @@ const picklevel = (anime)=>{
                 <p className="card-text">Rating : {anime.rating}</p>
                 <p className="card-text">Episodes : {anime.episodes}</p>
                 <div className='buttons'>
-                <Link  className="btn btn-success" onClick={(anime)=>(picklevel)} >Play</Link>
+                <Link  className="btn btn-success" to={`/homepage/${anime.id}`}>Play</Link>
                 </div>
 
               </div>

@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom'
 
 export default function Questionholder() {
 const {id} = useParams();
-const [anime, setAnime] = useState([])
+const [anime, setAnime] = useState(null)
 useEffect(()=>{
     fetch(`http://localhost:8001/animes/${id}`)
     .then((res)=>res.json())

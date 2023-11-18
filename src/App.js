@@ -38,8 +38,8 @@ const [isDarkmode, setIsDarkmode] = useState(true)
       <Route path="/leaderboard" element={<Leaderboard />} />
       <Route path="/" element={<Layout />} />
       <Route path="/home" element={<Homepage animes={animes}  />} />
-      <Route path='/home/:title' element={<Levelpick/>}/>
-      <Route path='/questionholder' element={<Questionholder/>}/>
+      <Route path='/home/:title' element={<Levelpick animes={animes}/>}/>
+      <Route path='/homepage/:id' element={<Questionholder/>}/>
       </Routes>
       </BrowserRouter>
     </div>
