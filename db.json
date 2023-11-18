@@ -1,9 +1,8 @@
-{"leadeboard":[
-
-],
-"animes":[
 {
-    "id": "1",
+  "leaderboard": [],
+  "animes": [
+    {
+      "id": "1",
       "title": "Attack on Titan",
       "release_date": "2013",
       "episodes": "89",
@@ -11,14 +10,635 @@
       "rating": "10",
       "description": "In a world where humanity is on the brink of extinction due to giant humanoid creatures known as Titans, a young man named Eren Yeager joins the fight to reclaim their walled city and uncover the truth behind these mysterious beings.",
       "poster": "https://m.media-amazon.com/images/I/81dH7-pkjiL.jpg",
-      "questions": [
+      "easy": [
         {
           "id": 1,
           "Question": "Who is the mc of the anime",
-          "Answer": "eren yaeger",
-          "points": 19.99
-        }]
-}
-]
-
+          "points": 10,
+          "choices": ["eren yeager", "naruto uzumaki", "goku", "monkey d. luffy", "light yagami"]
+        },
+        {
+          "id": 2,
+          "Question": "What is the name of Eren's adoptive sister?",
+          "points": 10,
+          "choices": ["mikasa ackerman", "sakura haruno", "bulma brief", "nami", "hinata hyuga"]
+        },
+        {
+          "id": 3,
+          "Question": "What is the name of Eren's hometown?",
+          "points": 10,
+          "choices": ["shiganshina", "konohagakure", "capsule corp", "one piece", "death note"]
+        },
+        {
+          "id": 4,
+          "Question": "Who is Eren's best friend?",
+          "points": 10,
+          "choices": ["armin arlert", "sasuke uchiha", "vegeta", "zoro", "l"]
+        },
+        {
+          "id": 5,
+          "Question": "What is the 3D maneuvering device used by soldiers called?",
+          "points": 10,
+          "choices": ["omnidirectional mobility gear", "quincy bow", "spirit gun", "haki", "sharingan"]
+        }
+      ],
+      "intermediate": [
+        {
+          "id": 1,
+          "Question": "Which family in Marley held the Warhammer Titan?",
+          "points": 20,
+          "choices": ["tybur family", "uzumaki family", "ackerman family", "kenpachi family", "yeager family"]
+        },
+        {
+          "id": 2,
+          "Question": "What is the name of the Female Titan?",
+          "points": 20,
+          "choices": ["annie leonhart", "hinata hyuga", "nico robin", "sakura haruno", "bulma brief"]
+        },
+        {
+          "id": 3,
+          "Question": "Who is the 15th captain of the Survey Corps?",
+          "points": 20,
+          "choices": ["armin arlert", "minato namikaze", "hange zoe", "portgas d. ace", "kakashi hatake"]
+        },
+        {
+          "id": 4,
+          "Question": "What is the name of the Titan that killed Eren's mother?",
+          "points": 20,
+          "choices": ["smiling titan", "mangekyo sharingan", "big mom", "frieza", "madara uchiha"]
+        },
+        {
+          "id": 5,
+          "Question": "Who is the Beast Titan?",
+          "points": 20,
+          "choices": ["zeke yeager", "son goku", "magneto", "sasuke uchiha", "shanks"]
+        }
+      ],
+      "expert": [
+        {
+          "id": 1,
+          "Question": "In which year was Eren Yeager born?",
+          "points": 30,
+          "choices": ["835", "850", "2000", "830", "845"]
+        },
+        {
+          "id": 2,
+          "Question": "What is the name of the Titan with a hardening ability?",
+          "points": 30,
+          "choices": ["armored titan", "diamond head", "stone golem", "iron giant", "colossal titan"]
+        },
+        {
+          "id": 3,
+          "Question": "Who did Eren inherit the Attack Titan from?",
+          "points": 30,
+          "choices": ["grisha yeager", "naruto uzumaki", "vegeta", "luffy", "ichigo kurosaki"]
+        },
+        {
+          "id": 4,
+          "Question": "What is the name of Eren's brother?",
+          "points": 30,
+          "choices": ["zeke yeager", "minato namikaze", "grisha yeager", "frankenstein", "natsu dragneel"]
+        },
+        {
+          "id": 5,
+          "Question": "Who is the creator of the Titans?",
+          "points": 30,
+          "choices": ["ymir fritz", "saitama", "professor x", "mad scientist", "king kai"]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Naruto",
+      "release_date": "2002",
+      "episodes": "220",
+      "mc": "Naruto Uzumaki",
+      "rating": "8.7",
+      "description": "Follow the journey of Naruto Uzumaki, a young ninja with dreams of becoming the strongest ninja and earning the title of Hokage, the leader of his village.",
+      "poster": "https://cdn.europosters.eu/image/1300/posters/naruto-shippuden-group-i129089.jpg",
+      "easy": [
+        {
+          "id": 1,
+          "Question": "Who is the main protagonist of Naruto?",
+          "points": 10,
+          "choices": ["naruto uzumaki", "sasuke uchiha", "sakura haruno", "rock lee", "itachi uchiha"]
+        },
+        {
+          "id": 2,
+          "Question": "What is the name of Naruto's sensei?",
+          "points": 10,
+          "choices": ["kakashi hatake", "jiraiya", "orochimaru", "minato namikaze", "hiruzen sarutobi"]
+        },
+        {
+          "id": 3,
+          "Question": "Which village does Naruto belong to?",
+          "points": 10,
+          "choices": ["konohagakure", "sunagakure", "kirigakure", "kumogakure", "iwagakure"]
+        },
+        {
+          "id": 4,
+          "Question": "What is the name of Naruto's favorite ramen shop?",
+          "points": 10,
+          "choices": ["Ichiraku Ramen", "Ramen Ichiraku", "Teuchi Ramen", "Suzume Ramen", "Hanabi Ramen"]
+        },
+        {
+          "id": 5,
+          "Question": "Who is Naruto's childhood crush?",
+          "points": 10,
+          "choices": ["Hinata Hyuga", "Sakura Haruno", "Ino Yamanaka", "Tenten", "Temari"]
+        }
+      ],
+      "intermediate": [
+        {
+          "id": 6,
+          "Question": "Which tailed beast is sealed inside Naruto?",
+          "points": 15,
+          "choices": ["Kurama", "Matatabi", "Isobu", "Son Goku", "Saiken"]
+        },
+        {
+          "id": 7,
+          "Question": "Who is Naruto's closest friend?",
+          "points": 15,
+          "choices": ["Sasuke Uchiha", "Sakura Haruno", "Hinata Hyuga", "Shikamaru Nara", "Choji Akimichi"]
+        },
+        {
+          "id": 8,
+          "Question": "What is the name of the ninja organization that poses a threat to Naruto and his friends?",
+          "points": 15,
+          "choices": ["Akatsuki", "Root", "Orochimaru's Faction", "Kabuto's Organization", "Black Zetsu"]
+        },
+        {
+          "id": 9,
+          "Question": "What is the name of the technique Naruto uses to create multiple clones of himself?",
+          "points": 15,
+          "choices": ["Shadow Clone Jutsu", "Clone Technique", "Body Flicker Technique", "Transformation Technique", "Substitution Jutsu"]
+        },
+        {
+          "id": 10,
+          "Question": "Who is the creator of the Rasengan technique taught to Naruto?",
+          "points": 15,
+          "choices": ["Minato Namikaze", "Jiraiya", "Kakashi Hatake", "Orochimaru", "Tobirama Senju"]
+        }
+      ],
+      "expert": [
+        {
+          "id": 11,
+          "Question": "Name three different Rasengan variants used by Naruto.",
+          "points": 20,
+          "choices": ["Rasen Shuriken", "Wind Release: Rasengan", "Ultra-Big Ball Rasengan", "Planetary Rasengan", "Lava Release Rasengan"]
+        },
+        {
+          "id": 12,
+          "Question": "Which Hokage is Naruto's mentor Jiraiya known for training?",
+          "points": 20,
+          "choices": ["Minato Namikaze", "Hiruzen Sarutobi", "Tobirama Senju", "Hashirama Senju", "None"]
+        },
+        {
+          "id": 13,
+          "Question": "What is the significance of the red swirl on Naruto's jacket?",
+          "points": 20,
+          "choices": ["Uzumaki Clan Symbol", "Symbol of Konohagakure", "Mark of the Sage of Six Paths", "Seal of the Nine-Tails", "Jinchuriki Mark"]
+        },
+        {
+          "id": 14,
+          "Question": "Who is Naruto's godfather?",
+          "points": 20,
+          "choices": ["Jiraiya", "Kakashi Hatake", "Minato Namikaze", "Iruka Umino", "Gaara"]
+        },
+        {
+          "id": 15,
+          "Question": "What is the name of the forbidden jutsu Naruto learns during the Fourth Great Ninja War?",
+          "points": 20,
+          "choices": ["Six Paths: Naruto Uzumaki", "Infinite Tsukuyomi", "Six Paths: Ultra-Big Ball Rasengan", "Edo Tensei", "Reanimation Jutsu"]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Bleach",
+      "release_date": "2004",
+      "episodes": "366",
+      "mc": "Ichigo Kurosaki",
+      "rating": "8.2",
+      "description": "Follow the story of Ichigo Kurosaki, a teenager with the ability to see ghosts, as he becomes a Soul Reaper to protect the living world from malevolent, lost spirits known as Hollows.",
+      "poster": "https://cdn.europosters.eu/image/750/posters/bleach-group-i30380.jpg",
+      "easy": [
+        {
+          "id": 1,
+          "Question": "Who is the main protagonist of Bleach?",
+          "points": 10,
+          "choices": ["Ichigo Kurosaki", "Renji Abarai", "Rukia Kuchiki", "Ulquiorra Cifer", "Byakuya Kuchiki"]
+        },
+        {
+          "id": 2,
+          "Question": "What is the name of Ichigo's Zanpakuto?",
+          "points": 10,
+          "choices": ["Zangetsu", "Senbonzakura", "Sode no Shirayuki", "Ryujin Jakka", "Gegetsuburi"]
+        },
+        {
+          "id": 3,
+          "Question": "Which organization is responsible for maintaining the balance between the spirit and living worlds in Bleach?",
+          "points": 10,
+          "choices": ["Gotei 13", "Espada", "Quincy", "Bounts", "Vizards"]
+        },
+        {
+          "id": 4,
+          "Question": "What is the source of a Soul Reaper's power in Bleach?",
+          "points": 10,
+          "choices": ["Zanpakuto", "Hollow Mask", "Quincy Bow", "Fullbring", "Resurrección"]
+        },
+        {
+          "id": 5,
+          "Question": "What is the name of Ichigo's high school?",
+          "points": 10,
+          "choices": ["Karakura High School", "Southern Cross Academy", "Shino Academy", "Seireitei Academy", "Hueco Mundo High School"]
+        }
+      ],
+      "intermediate": [
+        {
+          "id": 6,
+          "Question": "Who is the captain of the 10th Division in the Gotei 13?",
+          "points": 15,
+          "choices": ["Toshiro Hitsugaya", "Sui-Feng", "Mayuri Kurotsuchi", "Kenpachi Zaraki", "Gin Ichimaru"]
+        },
+        {
+          "id": 7,
+          "Question": "What is the name of Ichigo's father?",
+          "points": 15,
+          "choices": ["Isshin Kurosaki", "Ryuken Ishida", "Yamamoto Genryusai", "Jushiro Ukitake", "Sosuke Aizen"]
+        },
+        {
+          "id": 8,
+          "Question": "Who is the Espada Number 1 in Aizen's army?",
+          "points": 15,
+          "choices": ["Coyote Starrk", "Barragan Luisenbarn", "Ulquiorra Cifer", "Neliel Tu Oderschvank", "Grimmjow Jaegerjaquez"]
+        },
+        {
+          "id": 9,
+          "Question": "What is the name of Ichigo's Hollow form?",
+          "points": 15,
+          "choices": ["White Ichigo", "Dark Ichigo", "Hollow Ichigo", "Zombie Ichigo", "Evil Ichigo"]
+        },
+        {
+          "id": 10,
+          "Question": "Who is the lieutenant of the 6th Division in the Gotei 13?",
+          "points": 15,
+          "choices": ["Renji Abarai", "Rukia Kuchiki", "Isane Kotetsu", "Shuhei Hisagi", "Momo Hinamori"]
+        }
+      ],
+      "expert": [
+        {
+          "id": 11,
+          "Question": "What is the name of the technique Ichigo uses to defeat Aizen in the final battle?",
+          "points": 20,
+          "choices": ["Mugetsu", "Zangetsu", "Getsuga Tensho", "Bankai", "Tensa Zangetsu"]
+        },
+        {
+          "id": 12,
+          "Question": "Who is the creator of the Zanpakuto and the Gotei 13?",
+          "points": 20,
+          "choices": ["Yamamoto Genryusai", "Sosuke Aizen", "Ichibei Hyosube", "Shunsui Kyoraku", "Kisuke Urahara"]
+        },
+        {
+          "id": 13,
+          "Question": "What is the name of the technique Byakuya Kuchiki commonly uses?",
+          "points": 20,
+          "choices": ["Senbonzakura Kageyoshi", "Zangetsu", "Hakuda", "Byakurai", "Shukei Hakuteiken"]
+        },
+        {
+          "id": 14,
+          "Question": "Who is the former captain of the 5th Division before Sosuke Aizen?",
+          "points": 20,
+          "choices": ["Shinji Hirako", "Rose Otoribashi", "Kaname Tosen", "Gin Ichimaru", "Love Aikawa"]
+        },
+        {
+          "id": 15,
+          "Question": "What is the name of Ichigo's Fullbring power?",
+          "points": 20,
+          "choices": ["Fullbring: Tensa Zangetsu", "Fullbring: Cross of Scaffold", "Fullbring: Ichigo's Pride", "Fullbring: Bringer Light", "Fullbring: Soul Reaper"]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Jujutsu Kaisen",
+      "release_date": "2020",
+      "episodes": "24",
+      "mc": "Yuji Itadori",
+      "rating": "8.7",
+      "description": "Follow the story of Yuji Itadori as he becomes involved in the dangerous world of curses and Jujutsu Sorcery to protect his friends and eliminate powerful curses.",
+      "poster": "https://m.media-amazon.com/images/I/818DUzqnwES.jpg",
+      "easy": [
+        {
+          "id": 1,
+          "Question": "Who is the main protagonist of Jujutsu Kaisen?",
+          "points": 10,
+          "choices": ["Yuji Itadori", "Megumi Fushiguro", "Nobara Kugisaki", "Satoru Gojo", "Sukuna"]
+        },
+        {
+          "id": 2,
+          "Question": "What is the name of the cursed object that Yuji eats?",
+          "points": 10,
+          "choices": ["Sukuna's Finger", "Cursed Doll", "Shadow Puppet", "Dark Talisman", "Demon Heart"]
+        },
+        {
+          "id": 3,
+          "Question": "Which school does Yuji attend?",
+          "points": 10,
+          "choices": ["Tokyo Metropolitan Jujutsu Technical High School", "Jujutsu High School", "Sorcery Academy", "Kyoto Metropolitan Magic School", "Tokyo Occult University"]
+        },
+        {
+          "id": 4,
+          "Question": "Who is Yuji's best friend?",
+          "points": 10,
+          "choices": ["Satoru Gojo", "Megumi Fushiguro", "Nobara Kugisaki", "Junpei Yoshino", "Kento Nanami"]
+        },
+        {
+          "id": 5,
+          "Question": "What is the ultimate goal of Yuji and his friends?",
+          "points": 10,
+          "choices": ["Collect all of Sukuna's fingers", "Eliminate all curses", "Become the strongest sorcerers", "Discover the truth about curses", "Win the Kyoto Sister School Exchange Event"]
+        }
+      ],
+      "intermediate": [
+        {
+          "id": 6,
+          "Question": "Who is the teacher and mentor of Yuji and his friends?",
+          "points": 15,
+          "choices": ["Satoru Gojo", "Kento Nanami", "Masamichi Yaga", "Utahime Iori", "Yoshinobu Gakuganji"]
+        },
+        {
+          "id": 7,
+          "Question": "What is the name of Megumi Fushiguro's special technique?",
+          "points": 15,
+          "choices": ["Ten Shadows Technique", "Black Flash", "Domain Expansion", "Cursed Manipulation", "Limitless Cursed Energy"]
+        },
+        {
+          "id": 8,
+          "Question": "Who is the main antagonist in Jujutsu Kaisen?",
+          "points": 15,
+          "choices": ["Ryomen Sukuna", "Satoru Gojo", "Mahito", "Suguru Geto", "Jogo"]
+        },
+        {
+          "id": 9,
+          "Question": "What is the name of the cursed object that Sukuna was divided into?",
+          "points": 15,
+          "choices": ["Ryomen Sukuna's Fingers", "Cursed Womb: Death Paintings", "Blackened Swamp", "Special Grade Cursed Object", "Cursed Spirit: Hanami"]
+        },
+        {
+          "id": 10,
+          "Question": "What is the curse technique used by Nobara Kugisaki?",
+          "points": 15,
+          "choices": ["Cursed Technique: Resonance", "Cursed Technique: Straw Doll", "Cursed Technique: Lament", "Cursed Technique: Voodoo", "Cursed Technique: Coffin of the Iron Mountain"]
+        }
+      ],
+      "expert": [
+        {
+          "id": 11,
+          "Question": "What is the condition for activating Sukuna's powers using his fingers?",
+          "points": 20,
+          "choices": ["Eating the fingers", "Wearing the fingers", "Burning the fingers", "Touching the fingers", "Holding the fingers under moonlight"]
+        },
+        {
+          "id": 12,
+          "Question": "Name three special grade cursed spirits encountered in Jujutsu Kaisen.",
+          "points": 20,
+          "choices": ["Jogo", "Hanami", "Dagon", "Choso", "Jogo"]
+        },
+        {
+          "id": 13,
+          "Question": "What is the name of the Domain Expansion used by Satoru Gojo?",
+          "points": 20,
+          "choices": ["Limitless Cursed Technique: Infinity", "Cursed Technique: Death Painting", "Cursed Technique: Malevolent Shrine", "Cursed Technique: Resonance", "Cursed Technique: Reverse Cursed Technique"]
+        },
+        {
+          "id": 14,
+          "Question": "Who is the head of the Kyoto Metropolitan Magic Technical College?",
+          "points": 20,
+          "choices": ["Masamichi Yaga", "Mai Zenin", "Toji Fushiguro", "Yuta Okkotsu", "Panda"]
+        },
+        {
+          "id": 15,
+          "Question": "What is the name of Yuji's cursed technique?",
+          "points": 20,
+          "choices": ["Cursed Technique: Projection", "Cursed Technique: Enhancement", "Cursed Technique: Physical Prowess", "Cursed Technique: Black Flash", "Cursed Technique: Unleashed Potential"]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "One Piece",
+      "release_date": "1999",
+      "episodes": "ongoing",
+      "mc": "Monkey D. Luffy",
+      "rating": "9.0",
+      "description": "Embark on an epic adventure with Monkey D. Luffy and his pirate crew as they search for the legendary treasure, One Piece, in a world of pirates, Marines, and mysterious powers.",
+      "poster": "https://m.media-amazon.com/images/I/81nMPKCsoML._AC_UF1000,1000_QL80_.jpg",
+      "easy": [
+        {
+          "id": 1,
+          "Question": "Who is the main protagonist of One Piece?",
+          "points": 10,
+          "choices": ["Monkey D. Luffy", "Roronoa Zoro", "Nami", "Sanji", "Usopp"]
+        },
+        {
+          "id": 2,
+          "Question": "What is the name of Monkey D. Luffy's straw hat?",
+          "points": 10,
+          "choices": ["Gomu Gomu no Hat", "Straw Hat of Dreams", "Sunny Hat", "Luffy's Treasure", "Pirate King's Hat"]
+        },
+        {
+          "id": 3,
+          "Question": "Which of the following is not one of the three main powers in the world of One Piece?",
+          "points": 10,
+          "choices": ["Devil Fruits", "Haki", "Seastone", "Fishman Karate", "Cyborg Enhancements"]
+        },
+        {
+          "id": 4,
+          "Question": "What is the name of Monkey D. Luffy's signature attack?",
+          "points": 10,
+          "choices": ["Gomu Gomu no Pistol", "Gomu Gomu no Bazooka", "Gomu Gomu no Gatling", "Gomu Gomu no Rocket", "Gomu Gomu no Elephant Gun"]
+        },
+        {
+          "id": 5,
+          "Question": "Who is the captain of the Straw Hat Pirates?",
+          "points": 10,
+          "choices": ["Monkey D. Luffy", "Roronoa Zoro", "Nami", "Sanji", "Usopp"]
+        }
+      ],
+      "intermediate": [
+        {
+          "id": 6,
+          "Question": "What is the name of the world government in One Piece?",
+          "points": 15,
+          "choices": ["World Government", "Marine Headquarters", "Revolutionary Army", "Cipher Pol", "Celestial Dragons"]
+        },
+        {
+          "id": 7,
+          "Question": "Who is the current Fleet Admiral of the Marines?",
+          "points": 15,
+          "choices": ["Sakazuki (Akainu)", "Borsalino (Kizaru)", "Fujitora (Issho)", "Sengoku", "Garp"]
+        },
+        {
+          "id": 8,
+          "Question": "What is the name of the legendary treasure that the Straw Hat Pirates are searching for?",
+          "points": 15,
+          "choices": ["One Piece", "Great Pirate Treasure", "Ancient Gold", "Pirate King's Bounty", "Eternal Pose"]
+        },
+        {
+          "id": 9,
+          "Question": "Who is known as the Pirate King in the world of One Piece?",
+          "points": 15,
+          "choices": ["Gol D. Roger", "Whitebeard (Edward Newgate)", "Shanks", "Blackbeard (Marshall D. Teach)", "Big Mom (Charlotte Linlin)"]
+        },
+        {
+          "id": 10,
+          "Question": "What is the name of the ship used by the Straw Hat Pirates?",
+          "points": 15,
+          "choices": ["Thousand Sunny", "Red Force", "Going Merry", "Oro Jackson", "Queen Anne's Revenge"]
+        }
+      ],
+      "expert": [
+        {
+          "id": 11,
+          "Question": "What is the significance of the Will of D. in One Piece?",
+          "points": 20,
+          "choices": ["Unknown", "Inherited Will", "Destruction Will", "Destiny Will", "Divine Will"]
+        },
+        {
+          "id": 12,
+          "Question": "Name three members of the Seven Warlords of the Sea (Shichibukai) at any point in the series.",
+          "points": 20,
+          "choices": ["Dracule Mihawk", "Crocodile", "Boa Hancock", "Donquixote Doflamingo", "Bartholomew Kuma"]
+        },
+        {
+          "id": 13,
+          "Question": "What is the highest known level of Haki in One Piece?",
+          "points": 20,
+          "choices": ["Conqueror's Haki", "Armament Haki", "Observation Haki", "Advanced Haki", "Haoshoku Haki"]
+        },
+        {
+          "id": 14,
+          "Question": "Who is the author and creator of One Piece?",
+          "points": 20,
+          "choices": ["Eiichiro Oda", "Masashi Kishimoto", "Akira Toriyama", "Tite Kubo", "Hirohiko Araki"]
+        },
+        {
+          "id": 15,
+          "Question": "What is the name of the island where the Revolutionary Army is based?",
+          "points": 20,
+          "choices": ["Baltigo", "Raftel", "Wano", "Elbaf", "Zou"]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Vinland Saga",
+      "release_date": "2019",
+      "episodes": "24",
+      "mc": "Thorfinn",
+      "rating": "8.6",
+      "description": "Experience the Viking Age with Thorfinn, a young warrior seeking revenge for his father's death, as he becomes entangled in the conflicts between historical figures and explores the idea of a peaceful land called Vinland.",
+      "poster": "https://m.media-amazon.com/images/I/81rPC0owmrL.jpg",
+      "easy": [
+        {
+          "id": 1,
+          "Question": "Who is the main protagonist of Vinland Saga?",
+          "points": 10,
+          "choices": ["Thorfinn", "Askeladd", "Canute", "Leif Erikson", "Thors"]
+        },
+        {
+          "id": 2,
+          "Question": "What is Thorfinn's weapon of choice?",
+          "points": 10,
+          "choices": ["Dual Daggers", "Sword", "Axe", "Bow", "Spear"]
+        },
+        {
+          "id": 3,
+          "Question": "What is the name of Thorfinn's father?",
+          "points": 10,
+          "choices": ["Thors", "Leif", "Askeladd", "Canute", "Floki"]
+        },
+        {
+          "id": 4,
+          "Question": "In which historical event does Vinland Saga take place?",
+          "points": 10,
+          "choices": ["Viking Invasions", "Hundred Years' War", "Peloponnesian War", "Norman Conquest", "Battle of Sekigahara"]
+        },
+        {
+          "id": 5,
+          "Question": "Who leads the group of mercenaries that Thorfinn initially joins?",
+          "points": 10,
+          "choices": ["Askeladd", "Canute", "Thors", "Leif", "Bjorn"]
+        }
+      ],
+      "intermediate": [
+        {
+          "id": 6,
+          "Question": "What is the nickname given to Thors due to his legendary strength?",
+          "points": 15,
+          "choices": ["The Troll of Jom", "The Silent Warrior", "The Iron Fist", "The Raven", "The Swift"]
+        },
+        {
+          "id": 7,
+          "Question": "Who becomes the King of Denmark during the events of Vinland Saga?",
+          "points": 15,
+          "choices": ["Canute", "Sweyn Forkbeard", "Harald Hardrada", "Olaf Tryggvason", "Erik the Red"]
+        },
+        {
+          "id": 8,
+          "Question": "What is the name of the group of warriors seeking to establish a utopian land called Vinland?",
+          "points": 15,
+          "choices": ["Jomsvikings", "Berserkers", "Ravagers", "Shieldmaidens", "Vinland Explorers"]
+        },
+        {
+          "id": 9,
+          "Question": "Who is Thorfinn's childhood friend and rival?",
+          "points": 15,
+          "choices": ["Einar", "Leif", "Canute", "Bjorn", "Astrid"]
+        },
+        {
+          "id": 10,
+          "Question": "What is the name of Thorfinn's village?",
+          "points": 15,
+          "choices": ["Iceland", "Vinland", "Jomsborg", "Gardariki", "Faroe Islands"]
+        }
+      ],
+      "expert": [
+        {
+          "id": 11,
+          "Question": "What historical figure does Askeladd work for and ultimately betray?",
+          "points": 20,
+          "choices": ["King Sweyn Forkbeard", "King Olaf Tryggvason", "King Canute the Great", "Harald Hardrada", "Leif Erikson"]
+        },
+        {
+          "id": 12,
+          "Question": "Who is the historical figure associated with the Vinland exploration?",
+          "points": 20,
+          "choices": ["Leif Erikson", "Christopher Columbus", "Marco Polo", "Erik the Red", "Ferdinand Magellan"]
+        },
+        {
+          "id": 13,
+          "Question": "What is the political structure of the Jomsvikings?",
+          "points": 20,
+          "choices": ["Warrior Society", "Monarchy", "Republic", "Theocracy", "Feudal System"]
+        },
+        {
+          "id": 14,
+          "Question": "What traumatic event shapes Thorfinn's character and motivates his quest for vengeance?",
+          "points": 20,
+          "choices": ["Death of his father Thors", "Betrayal by Askeladd", "Loss of his homeland", "Capture by Jomsvikings", "Battle of London Bridge"]
+        },
+        {
+          "id": 15,
+          "Question": "What is the meaning or significance of the term 'Vinland' in the context of the series?",
+          "points": 20,
+          "choices": ["Land of Wine", "Land of Dreams", "Land of Hope", "Land of Suffering", "Land of the Vikings"]
+        }
+      ]
+    }
+    
+    
+  
+  ]
 }
