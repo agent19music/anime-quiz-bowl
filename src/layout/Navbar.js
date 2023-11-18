@@ -25,7 +25,7 @@ export default function Navbar({mycart, toggleDarkMode, toggle, toggle2}) {
       <Link className="navbar-brand mt-2 mt-lg-0" to="#">
         <img
           src="/logo.jpeg"
-          height="70"
+          height="40"
           alt="Logo"
           
         />
