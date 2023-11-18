@@ -26,7 +26,7 @@ export default function Anime({animes, toggle}) {
                 <p className="card-text">Rating : {anime.rating}</p>
                 <p className="card-text">Episodes : {anime.episodes}</p>
                 <div className='buttons'>
-                <Link  className="btn btn-success" to={`/homepage/${anime.id}`}>Play</Link>
+                <Link className="btn btn-success" to={`/levelpick/${anime.id}`}>Play</Link>
                 </div>
 
               </div>

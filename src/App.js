@@ -27,6 +27,8 @@ const [isDarkmode, setIsDarkmode] = useState(true)
   const toggle = isDarkmode ? ' bg-dark text-white' : 'bg-light text-black'
   const toggle2 = isDarkmode ? 'dark':'light';
   const toggle3 = isDarkmode ? 'white': 'black'
+
+  let count = 0;
   return (
     <div className="App">
       <BrowserRouter>
@@ -39,7 +41,8 @@ const [isDarkmode, setIsDarkmode] = useState(true)
       <Route path="/" element={<Layout />} />
       <Route path="/home" element={<Homepage animes={animes}  />} />
       <Route path='/home/:title' element={<Levelpick animes={animes}/>}/>
-      <Route path='/homepage/:id' element={<Questionholder/>}/>
+      <Route path="/levelpick/:animeId" element={<Levelpick />} />
+      <Route path="/questionholder/:difficulty/:animeId" element={<Questionholder count={count} />} />
       </Routes>
       </BrowserRouter>
     </div>
