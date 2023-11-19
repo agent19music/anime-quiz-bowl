@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Question from './Question';
 import { useParams } from 'react-router-dom';
+import Swal from 'sweetalert2';
 
 export default function Questionholder({count}) {
   const { animeId, difficulty } = useParams();
@@ -18,7 +19,13 @@ export default function Questionholder({count}) {
     if (currentQuestionIndex + 1 < anime[difficulty].length) {
       setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
     } else {
-     console.log('done');
+      Swal.fire({
+        position: "top-end",
+        icon: "success",
+        title: "Your quiz has been submitted successfully",
+        showConfirmButton: false,
+        timer: 1500
+      });
     }
   };
 
