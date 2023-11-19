@@ -1,5 +1,11 @@
 {
-  "leaderboard": [],
+  "leaderboard": [
+   {
+    "name": "ichigo",
+    "score": 100
+   }
+
+  ],
   "animes": [
     {
       "id": "1",
@@ -507,7 +513,7 @@
         },
         {
           "id": 12,
-          "Question": "Name three members of the Seven Warlords of the Sea (Shichibukai) at any point in the series.",
+          "Question": "Name one member of the Seven Warlords of the Sea (Shichibukai) at any point in the series.",
           "points": 20,
           "choices": ["Dracule Mihawk", "Crocodile", "Boa Hancock", "Donquixote Doflamingo", "Bartholomew Kuma"]
         },
@@ -530,7 +536,8 @@
           "choices": ["Baltigo", "Raftel", "Wano", "Elbaf", "Zou"]
         }
       ]
-    },
+    }
+    ,
     {
       "id": "6",
       "title": "Vinland Saga",

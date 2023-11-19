@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Question from './Question';
-import { useParams } from 'react-router-dom';
+import { useParams,useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
 
 export default function Questionholder() {
@@ -9,6 +9,7 @@ export default function Questionholder() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [quizCompleted, setQuizCompleted] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetch(`http://localhost:8001/animes/${animeId}`)
@@ -23,12 +24,14 @@ export default function Questionholder() {
     } else {
       setQuizCompleted(true);
       Swal.fire({
-        position: "top-end",
-        icon: "success",
-        title: "Your quiz has been submitted successfully",
-        showConfirmButton: false,
-        timer: 900
-      });
+        title: "Quiz submitted!",
+        text: "Now check your position on the leaderboard !!",
+        icon: "success"
+      })
+      .then(
+        
+      )
+      .then(() => navigate(`/leaderboard`));
     }
     console.log('Final Score:', score);
   };

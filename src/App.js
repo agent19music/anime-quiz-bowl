@@ -13,7 +13,7 @@ import Questionholder from './Questionholder';
 
 function App() {
 const [animes, setAnimes] = useState([]) 
-const [isDarkmode, setIsDarkmode] = useState(true)
+const [isDarkmode, setIsDarkmode] = useState(false)
 
   useEffect(()=>{
     fetch(' http://localhost:8001/animes')
