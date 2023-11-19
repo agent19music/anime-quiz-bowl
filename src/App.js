@@ -14,6 +14,7 @@ import Questionholder from './Questionholder';
 function App() {
 const [animes, setAnimes] = useState([]) 
 const [isDarkmode, setIsDarkmode] = useState(false)
+const [username, setUsername] = useState('')
 
   useEffect(()=>{
     fetch(' http://localhost:8001/animes')
@@ -29,20 +30,22 @@ const [isDarkmode, setIsDarkmode] = useState(false)
   const toggle3 = isDarkmode ? 'white': 'black'
 
   
+
+  
   return (
     <div className={toggle}>
       <BrowserRouter>
       <Navbar toggle={toggle} toggle2={toggle2} toggleDarkMode={toggleDarkMode}/>
       <Routes>
-      <Route index element={<Landingpage />} />  
+      <Route index element={<Landingpage username={username} setUsername={setUsername} />} />  
       <Route path="/homepage" element={<Anime toggle={toggle} />} />
       <Route path="/aboutus" element={<About />} />
-      <Route path="/leaderboard" element={<Leaderboard />} />
+      <Route path="/leaderboard" element={<Leaderboard toggle2={toggle2} />} />
       <Route path="/" element={<Layout />} />
       <Route path="/home" element={<Homepage animes={animes}  />} />
       <Route path='/home/:title' element={<Levelpick animes={animes}/>}/>
       <Route path="/levelpick/:animeId" element={<Levelpick />} />
-      <Route path="/questionholder/:difficulty/:animeId" element={<Questionholder />} />
+      <Route path="/questionholder/:difficulty/:animeId" element={<Questionholder username={username}/>} />
       </Routes>
       </BrowserRouter>
     </div>

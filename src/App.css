@@ -1,3 +1,9 @@
 #main-contaner{
   min-height: 80vh;
 }
+#leaderboard{
+  min-height: 100vh;
+}
+#about{
+  min-height: 100vh;
+}

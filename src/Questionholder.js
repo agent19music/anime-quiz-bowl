@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import Question from './Question';
-import { useParams,useNavigate } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
 
-export default function Questionholder() {
+export default function Questionholder({ username }) {
   const { animeId, difficulty } = useParams();
   const [anime, setAnime] = useState(null);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -24,14 +24,33 @@ export default function Questionholder() {
     } else {
       setQuizCompleted(true);
       Swal.fire({
-        title: "Quiz submitted!",
-        text: "Now check your position on the leaderboard !!",
-        icon: "success"
+        title: 'Quiz submitted!',
+        text: 'Now check your position on the leaderboard!!',
+        icon: 'success',
       })
-      .then(
-        
-      )
-      .then(() => navigate(`/leaderboard`));
+        .then(() => {
+          return fetch('http://localhost:8001/leaderboard', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              name: username,
+              score: score,
+            }),
+          })
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+          })
+          .then(() => navigate('/leaderboard'))
+          .catch((error) => console.error('Error:', error));
+          
+        })
+        .then(() => navigate('/leaderboard'))
+        .catch((error) => console.error(error));
     }
     console.log('Final Score:', score);
   };
@@ -41,7 +60,7 @@ export default function Questionholder() {
   };
 
   return (
-    <div className='container'>
+    <div className='container' id='main-container'>
       {anime && anime[difficulty] && anime[difficulty].length > 0 && (
         <Question
           question={anime[difficulty][currentQuestionIndex]}
@@ -49,11 +68,11 @@ export default function Questionholder() {
           updateScore={updateScore}
         />
       )}
-       {quizCompleted && (
-            <div className="container mt-3 text-center">
-              <h1>Final Score: {score}</h1>
-            </div>
-          )}
+      {quizCompleted && (
+        <div className='container mt-3 text-center'>
+          <h1>Final Score: {score}</h1>
+        </div>
+      )}
     </div>
   );
 }

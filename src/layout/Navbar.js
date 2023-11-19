@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 
-export default function Navbar({mycart, toggleDarkMode, toggle, toggle2}) {
+export default function Navbar({ toggleDarkMode, toggle, toggle2}) {
   
   return (
     <div>

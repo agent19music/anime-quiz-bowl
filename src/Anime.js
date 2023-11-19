@@ -1,9 +1,8 @@
 import React,{useState} from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export default function Anime({animes, toggle}) {
     const [imageLoading, setImageLoading] = useState(true);
-    const navigate = useNavigate();
 
     const handleImageLoad = () => {
       setImageLoading(false);
