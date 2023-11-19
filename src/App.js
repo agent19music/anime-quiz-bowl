@@ -42,10 +42,10 @@ const [username, setUsername] = useState('')
       <Route path="/aboutus" element={<About />} />
       <Route path="/leaderboard" element={<Leaderboard toggle2={toggle2} />} />
       <Route path="/" element={<Layout />} />
-      <Route path="/home" element={<Homepage animes={animes}  />} />
-      <Route path='/home/:title' element={<Levelpick animes={animes}/>}/>
+      <Route path="/home" element={<Homepage animes={animes} toggle={toggle}  />} />
+      <Route path='/home/:title' element={<Levelpick animes={animes} toggle={toggle}/>}/>
       <Route path="/levelpick/:animeId" element={<Levelpick />} />
-      <Route path="/questionholder/:difficulty/:animeId" element={<Questionholder username={username}/>} />
+      <Route path="/questionholder/:difficulty/:animeId" element={<Questionholder username={username} />} />
       </Routes>
       </BrowserRouter>
     </div>

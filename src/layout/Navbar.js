@@ -36,10 +36,7 @@ export default function Navbar({ toggleDarkMode, toggle, toggle2}) {
           <Link className="nav-link" to="/home">Home</Link>
         </li>
         
-        <li className="nav-item">
-          <Link className="nav-link" to="/aboutus">About us</Link>
-        </li>
-
+       
         <li className="nav-item">
           <Link className="nav-link" to="/leaderboard">Leaderboard</Link>
         </li>
@@ -68,13 +65,12 @@ export default function Navbar({ toggleDarkMode, toggle, toggle2}) {
           aria-labelledby="navbarDropdownMenuLink"
         >
           <li>
-            <Link className="dropdown-item" to="/addanimeform">Add new anime</Link>
+            <Link className="dropdown-item" to="/aboutus">About us</Link>
           </li>
+         
+
           <li>
             <Link className="dropdown-item" onClick={()=> toggleDarkMode()} to="#">Toggle dark mode</Link>
-          </li>
-          <li>
-            <Link className="dropdown-item" to="/feedback">User reviews</Link>
           </li>
         </ul>
       </div>
