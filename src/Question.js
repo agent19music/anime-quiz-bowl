@@ -1,14 +1,12 @@
 import React, { useState } from 'react';
 
-export default function Question({ question, onNextQuestion, count , updateScore}) {
+export default function Question({ question, onNextQuestion,  updateScore}) {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   
 
   const handleAnswerChange = (event) => {
     setSelectedAnswer(event.target.value);
   };
-  console.log(selectedAnswer);
-  console.log(question.choices[0]);
 
   const handleNextClick = () => {
 

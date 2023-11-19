@@ -3,7 +3,7 @@ import Question from './Question';
 import { useParams } from 'react-router-dom';
 import Swal from 'sweetalert2';
 
-export default function Questionholder({count}) {
+export default function Questionholder() {
   const { animeId, difficulty } = useParams();
   const [anime, setAnime] = useState(null);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -41,7 +41,6 @@ export default function Questionholder({count}) {
         <Question
           question={anime[difficulty][currentQuestionIndex]}
           onNextQuestion={handleNextQuestion}
-          count={count}
           updateScore={updateScore}
         />
       )}
