@@ -418,7 +418,7 @@
       "id": "3",
       "title": "Bleach",
       "release_date": "2004",
-      "episodes": "366",
+      "episodes": "392",
       "mc": "Ichigo Kurosaki",
       "rating": "8.2",
       "description": "Follow the story of Ichigo Kurosaki, a teenager with the ability to see ghosts, as he becomes a Soul Reaper to protect the living world from malevolent, lost spirits known as Hollows.",
@@ -758,10 +758,10 @@
         },
         {
           "id": 12,
-          "Question": "Name three special grade cursed spirits encountered in Jujutsu Kaisen.",
+          "Question": "Which of the following is not a special grade cursed spirit encountered in Jujutsu Kaisen.",
           "points": 20,
           "choices": [
-            "Jogo",
+            "Nobara",
             "Hanami",
             "Dagon",
             "Choso",
@@ -797,7 +797,7 @@
           "Question": "What is the name of Yuji's cursed technique?",
           "points": 20,
           "choices": [
-            "Cursed Technique: Projection",
+            "Cursed Technique: Shrine of heaven",
             "Cursed Technique: Enhancement",
             "Cursed Technique: Physical Prowess",
             "Cursed Technique: Black Flash",
@@ -810,7 +810,7 @@
       "id": "5",
       "title": "One Piece",
       "release_date": "1999",
-      "episodes": "ongoing",
+      "episodes": "1083",
       "mc": "Monkey D. Luffy",
       "rating": "9.0",
       "description": "Embark on an epic adventure with Monkey D. Luffy and his pirate crew as they search for the legendary treasure, One Piece, in a world of pirates, Marines, and mysterious powers.",
@@ -845,9 +845,9 @@
           "Question": "Which of the following is not one of the three main powers in the world of One Piece?",
           "points": 10,
           "choices": [
-            "Devil Fruits",
+            "Bounty",
             "Haki",
-            "Seastone",
+            "Devil fruits",
             "Fishman Karate",
             "Cyborg Enhancements"
           ]
@@ -954,10 +954,10 @@
         },
         {
           "id": 12,
-          "Question": "Name one member of the Seven Warlords of the Sea (Shichibukai) at any point in the series.",
+          "Question": "Who has never been a member of the Seven Warlords of the Sea (Shichibukai) at any point in the series.",
           "points": 20,
           "choices": [
-            "Dracule Mihawk",
+            "Sogeking",
             "Crocodile",
             "Boa Hancock",
             "Donquixote Doflamingo",
@@ -1112,7 +1112,7 @@
         },
         {
           "id": 9,
-          "Question": "Who is Thorfinn's childhood friend and rival?",
+          "Question": "Who is Thorfinn's friend at the farm?",
           "points": 15,
           "choices": [
             "Einar",
