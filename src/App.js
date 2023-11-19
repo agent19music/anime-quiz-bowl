@@ -30,7 +30,7 @@ const [isDarkmode, setIsDarkmode] = useState(true)
 
   
   return (
-    <div className="App">
+    <div className={toggle}>
       <BrowserRouter>
       <Navbar toggle={toggle} toggle2={toggle2} toggleDarkMode={toggleDarkMode}/>
       <Routes>

@@ -38,7 +38,7 @@ export default function Questionholder() {
   };
 
   return (
-    <div>
+    <div className='container'>
       {anime && anime[difficulty] && anime[difficulty].length > 0 && (
         <Question
           question={anime[difficulty][currentQuestionIndex]}
@@ -47,7 +47,7 @@ export default function Questionholder() {
         />
       )}
        {quizCompleted && (
-            <div className="container mt-3">
+            <div className="container mt-3 text-center">
               <h1>Final Score: {score}</h1>
             </div>
           )}

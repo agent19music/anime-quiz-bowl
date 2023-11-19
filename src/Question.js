@@ -19,8 +19,8 @@ export default function Question({ question, onNextQuestion,  updateScore}) {
 
 
   return (
-    <div className="container mt-5">
-      <div className="card text-center">
+    <div className="d-flex align-items-center justify-content-center" style={{height: "100vh"}}>
+      <div className="card text-center mt-5">
         <div className="card-header">
           <h3>{question.Question}</h3>
         </div>

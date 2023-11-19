@@ -5,7 +5,7 @@ export default function Navbar({mycart, toggleDarkMode, toggle, toggle2}) {
   
   return (
     <div>
- <nav className={`navbar navbar-expand-lg navbar-${toggle2} ${toggle} fixed-top`}>
+ <nav className={`navbar navbar-expand-lg navbar-${toggle2} ${toggle} fixed-top mb-4`}>
   <div className="container-fluid">
        <button
       className="navbar-toggler"
@@ -38,6 +38,10 @@ export default function Navbar({mycart, toggleDarkMode, toggle, toggle2}) {
         
         <li className="nav-item">
           <Link className="nav-link" to="/aboutus">About us</Link>
+        </li>
+
+        <li className="nav-item">
+          <Link className="nav-link" to="/leaderboard">Leaderboard</Link>
         </li>
       </ul>
       
