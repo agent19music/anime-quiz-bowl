@@ -1,17 +1,24 @@
-// Question.js
 import React, { useState } from 'react';
 
-export default function Question({ question, onNextQuestion, count }) {
+export default function Question({ question, onNextQuestion, count , updateScore}) {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
+  
 
   const handleAnswerChange = (event) => {
     setSelectedAnswer(event.target.value);
   };
+  console.log(selectedAnswer);
+  console.log(question.choices[0]);
 
   const handleNextClick = () => {
+
+    if (selectedAnswer === question.choices[0]) {
+        updateScore(question.points);
+      }
     onNextQuestion();
     setSelectedAnswer(null);
   };
+
 
   return (
     <div className="container mt-5">

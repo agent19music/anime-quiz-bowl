@@ -7,6 +7,7 @@ export default function Questionholder({count}) {
   const { animeId, difficulty } = useParams();
   const [anime, setAnime] = useState(null);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [score, setScore] = useState(0);
 
   useEffect(() => {
     fetch(`http://localhost:8001/animes/${animeId}`)
@@ -24,9 +25,14 @@ export default function Questionholder({count}) {
         icon: "success",
         title: "Your quiz has been submitted successfully",
         showConfirmButton: false,
-        timer: 1500
+        timer: 900
       });
     }
+    console.log('Final Score:', score);
+  };
+
+  const updateScore = (points) => {
+    setScore((prevScore) => prevScore + points);
   };
 
   return (
@@ -36,6 +42,7 @@ export default function Questionholder({count}) {
           question={anime[difficulty][currentQuestionIndex]}
           onNextQuestion={handleNextQuestion}
           count={count}
+          updateScore={updateScore}
         />
       )}
     </div>
