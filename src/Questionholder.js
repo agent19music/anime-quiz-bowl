@@ -8,6 +8,7 @@ export default function Questionholder() {
   const [anime, setAnime] = useState(null);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
+  const [quizCompleted, setQuizCompleted] = useState(false);
 
   useEffect(() => {
     fetch(`http://localhost:8001/animes/${animeId}`)
@@ -20,6 +21,7 @@ export default function Questionholder() {
     if (currentQuestionIndex + 1 < anime[difficulty].length) {
       setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
     } else {
+      setQuizCompleted(true);
       Swal.fire({
         position: "top-end",
         icon: "success",
@@ -44,6 +46,11 @@ export default function Questionholder() {
           updateScore={updateScore}
         />
       )}
+       {quizCompleted && (
+            <div className="container mt-3">
+              <h1>Final Score: {score}</h1>
+            </div>
+          )}
     </div>
   );
 }
