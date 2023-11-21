@@ -33,7 +33,7 @@ export default function Landingpage({username, setUsername}) {
       <div className='col md-12 text-center' id='main-container'>
         <div className='row justify-content-center align-items-center' style={{ height: '100vh' }}>
           <div className='col-md-12'>
-            <h5 className='pb-3'>WELCOME TO ANIME QUIZ BOWL !!</h5>
+            <h5 className='pb-3'>WELCOME TO ANIME ZETU QUIZ BOWL !!</h5>
             <img src='/landing.jpeg' alt='loading...' className='img-fluid pb-2' style={{maxWidth: '50%'}} />
             <div className="d-grid gap-2 pt-3">
               <button className="btn btn-success" onClick={welcome} type="button">

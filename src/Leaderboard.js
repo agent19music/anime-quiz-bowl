@@ -15,12 +15,12 @@ export default function Leaderboard({toggle2}) {
 
   return (
     <div className="container pt-5 mt-5"  id='leaderboard'>
-      <h2>Anime Quiz Bowl Leaderboard</h2>
+      <h2>Anime Zetu Quiz Bowl Leaderboard</h2>
       <table className={`table table-striped table-${toggle2}`} >
         <thead>
           <tr>
             <th scope="col">Name</th>
-            <th scope="col">Score</th>
+            <th scope="col">Waka Points</th>
           </tr>
         </thead>
         <tbody>

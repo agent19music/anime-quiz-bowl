@@ -12,7 +12,7 @@ export default function Questionholder({ username }) {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch(`http://localhost:8001/animes/${animeId}`)
+    fetch(`https://anime-zetu-quiz-bowl-db.onrender.com/${animeId}`)
       .then((res) => res.json())
       .then((res) => setAnime(res))
       .catch((error) => console.error(error));

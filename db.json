@@ -14,8 +14,22 @@
       "name": "veron",
       "score": 60,
       "id": 3
+    },
+    {
+      "name": "sean",
+      "score": 20,
+      "id": 4
+    },
+    {
+      "name": "shawn",
+      "score": 120,
+      "id": 5
+    },
+    {
+      "name": "steve",
+      "score": 40,
+      "id": 6
     }
-   
   ],
   "animes": [
     {

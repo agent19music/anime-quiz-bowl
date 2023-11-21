@@ -17,7 +17,7 @@ const [isDarkmode, setIsDarkmode] = useState(false)
 const [username, setUsername] = useState('')
 
   useEffect(()=>{
-    fetch(' http://localhost:8001/animes')
+    fetch(' https://anime-zetu-quiz-bowl-db.onrender.com/animes')
     .then((res)=>res.json())
     .then((res)=> setAnimes(res))
   },[])
