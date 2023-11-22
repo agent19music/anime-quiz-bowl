@@ -27,7 +27,7 @@ const [username, setUsername] = useState('')
   };
   const toggle = isDarkmode ? ' bg-dark text-white' : 'bg-light text-black'
   const toggle2 = isDarkmode ? 'dark':'light';
-  const toggle3 = isDarkmode ? 'white': 'black'
+  // const toggle3 = isDarkmode ? 'white': 'black'
 
   
 
