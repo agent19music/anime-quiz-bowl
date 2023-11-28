@@ -12,49 +12,53 @@ export default function Questionholder({ username }) {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch(`https://anime-zetu-quiz-bowl-db.onrender.com/${animeId}`)
+    fetch(`https://anime-zetu-quiz-bowl-db.onrender.com/animes/${animeId}`)
       .then((res) => res.json())
       .then((res) => setAnime(res))
       .catch((error) => console.error(error));
   }, [animeId]);
 
   const handleNextQuestion = () => {
+    // Check if there are more questions
     if (currentQuestionIndex + 1 < anime[difficulty].length) {
       setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
     } else {
+      // If no more questions, mark the quiz as completed
       setQuizCompleted(true);
+      
+      // Show a success message
       Swal.fire({
         title: 'Quiz submitted!',
         text: 'Now check your position on the leaderboard!!',
         icon: 'success',
       })
-        .then(() => {
-          return fetch('http://localhost:8001/leaderboard', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({
-              name: username,
-              score: score,
-            }),
-          })
-          .then((response) => {
-            if (!response.ok) {
-              throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            return response.json();
-          })
-          .then(() => navigate('/leaderboard'))
-          .catch((error) => console.error('Error:', error));
-          
+      .then(() => {
+        // Send the score to the leaderboard
+        return fetch('https://anime-zetu-quiz-bowl-db.onrender.com/leaderboard', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            name: username,
+            score: score,
+          }),
         })
-        .then(() => navigate('/leaderboard'))
-        .catch((error) => console.error(error));
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          return response.json();
+        })
+        .then(() => navigate('/leaderboard')) // Navigate to the leaderboard
+        .catch((error) => console.error('Error:', error));
+      })
+      .catch((error) => console.error(error));
     }
+    
     console.log('Final Score:', score);
   };
-
+  
   const updateScore = (points) => {
     setScore((prevScore) => prevScore + points);
   };

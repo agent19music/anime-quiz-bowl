@@ -5,97 +5,83 @@ export default function Footer() {
   return (
     <div>
          
-    <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
       
-      <div className="me-5 d-none d-lg-block">
+      <div class="me-5 d-none d-lg-block">
         <span>Get connected with us on social networks:</span>
       </div>
       
       <div>
-        <Link to="https://www.facebook.com/sean.monroe.9003?mibextid=ZbWKwL" className="me-4 link-secondary" target='blank'>
-          <i className="fab fa-facebook-f"></i>
-        </Link>
-        <Link to="https://twitter.com/ufwsean" target='blank'className="me-4 link-secondary">
-          <i className="fab fa-twitter"></i>
-        </Link>
-        <Link to="mailto:seanmotanya@gmail.com"target='blank' className="me-4 link-secondary">
-          <i className="fab fa-google"></i>
-        </Link>
-        <Link to="https://instagram.com/ufwsean?igshid=OGQ5ZDc2ODk2ZA==" target='blank'className="me-4 link-secondary">
-          <i className="fab fa-instagram"></i>
-        </Link>
-        <Link to="https://www.linkedin.com/in/sean-motanya-532619282/" target='blank' className="me-4 link-secondary">
-          <i className="fab fa-linkedin"></i>
-        </Link>
-        <Link to="https://github.com/agent19music" target='blank' className="me-4 link-secondary">
-          <i className="fab fa-github"></i>
-        </Link>
+        <a href="https://www.facebook.com/sean.monroe.9003?mibextid=ZbWKwL" class="me-4 link-secondary" target='blank'>
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/ufwsean" target='blank'class="me-4 link-secondary">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="mailto:seanmotanya@gmail.com"target='blank' class="me-4 link-secondary">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="https://instagram.com/brand.on.85?igshid=MTNiYzNiMzkwZA==" target='blank'class="me-4 link-secondary">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/brandon-nyakea-6a7aa7270/" target='blank' class="me-4 link-secondary">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/agent19music" target='blank' class="me-4 link-secondary">
+          <i class="fab fa-github"></i>
+        </a>
       </div>
        </section>
     
   
-      <section className="">
-      <div className="container text-center text-md-start mt-5">
+      <section class="">
+      <div class="container text-center text-md-start mt-5">
         
-        <div className="row mt-3">
+        <div class="row mt-3">
           
-                  <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             
-            <h6 className="text-uppercase fw-bold mb-4">
-              <i className="fas fa-gem me-3 text-secondary"></i>ANIME-ZETU-QUIZ-BOWL
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3 text-secondary"></i>FARM SENSE
             </h6>
             <p>
-              The home of your favourite animes' merchandise and more !!
+              Making Farming Easier For You !!
             </p>
           </div>
          
           
-            <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
             
-            <h6 className="text-uppercase fw-bold mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
               Navigate
             </h6>
             <p>
-              <Link to="/homepage" className="text-reset">Home</Link>
+              <a href="/homepage" class="text-reset">Home</a>
             </p>
            
-            <p>
-              <Link to="/aboutus" className="text-reset">About Us</Link>
-            </p>
             
           </div>
           
           
-          <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-           
-            <h6 className="text-uppercase fw-bold mb-4">
-              More
-            </h6>
-            <p>
-              <Link to="#" className="text-reset">Donate</Link>
-            </p>
-            
-          </div>
-                 
   
           
-          <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           
-            <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-            <p><i className="fas fa-home me-3 text-secondary"></i> Nairobi Bankai Towers</p>
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3 text-secondary"></i> Nairobi Farm Sense Towers</p>
             <p>
-              <i className="fas fa-envelope me-3 text-secondary"></i>
-              seanmotanya@gamail.com
+              <i class="fas fa-envelope me-3 text-secondary"></i>
+              brandonnyakea@gamail.com
             </p>
-            <p><i className="fas fa-phone me-3 text-secondary"></i> + 254 745 071 299</p>
-            <p><i className="fas fa-print me-3 text-secondary"></i> + 971 582 301 251</p>
+            <p><i class="fas fa-phone me-3 text-secondary"></i> + 254 796 108 258</p>
+            <p><i class="fas fa-print me-3 text-secondary"></i> + 971 582 301 251</p>
           </div>
         </div>
       </div>
     </section>
-    <div className="text-center p-4" >
+    <div class="text-center p-4" >
       © 2023 Copyright:
-      <Link className="text-reset fw-bold" to="/">animestore All rights reserved</Link>
+      <a class="text-reset fw-bold" href="/">Farmsense All rights reserved</a>
     </div>
     
   

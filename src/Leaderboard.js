@@ -4,7 +4,7 @@ export default function Leaderboard({toggle2}) {
   const [board, setBoard] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:8001/leaderboard')
+    fetch('https://anime-zetu-quiz-bowl-db.onrender.com/leaderboard')
       .then((res) => res.json())
       .then((res) => {
         const sortedBoard = res.sort((a, b) => b.score - a.score);
